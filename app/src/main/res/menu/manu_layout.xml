@@ -16,6 +16,11 @@
         android:title="Chat Room"
         android:id="@+id/chatRoom"
         />
+    <item
+        android:title="settings"
+        android:id="@+id/settings"
+        />
+
 
 
 

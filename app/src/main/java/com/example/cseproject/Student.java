@@ -79,12 +79,12 @@ public class Student extends AppCompatActivity {
         });*/
     }
     //sign Out
-
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.manu_layout,menu);
         return super.onCreateOptionsMenu(menu);
     }
+
 
 
     @Override
@@ -104,6 +104,10 @@ public class Student extends AppCompatActivity {
         }
         if(item.getItemId()==R.id.chatRoom){
             Intent intent=new Intent(getApplicationContext(),Chatroom.class);
+            startActivity(intent);
+        }
+        if(item.getItemId()==R.id.settings){
+            Intent intent=new Intent(getApplicationContext(),SettingsAcivity.class);
             startActivity(intent);
         }
         return super.onOptionsItemSelected(item);

@@ -12,6 +12,9 @@ public class Fragment1 extends  Fragment{
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+        setHasOptionsMenu(true);
         return inflater.inflate(R.layout.fragment1_layout,container,false);
+
     }
+
 }
