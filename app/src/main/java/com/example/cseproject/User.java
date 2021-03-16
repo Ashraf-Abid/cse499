@@ -11,4 +11,9 @@ public class User {
         this.phone = phone;
         this.type=type;
     }
+
+    public User(String name,String email) {
+        this.name=name;
+        this.email=email;
+    }
 }
