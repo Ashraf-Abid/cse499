@@ -44,7 +44,7 @@
         android:inputType="textImeMultiLine"
         android:hint="Email"
         android:textAlignment="center"
-        android:drawableStart="@drawable/edit_profile"
+        android:drawableStart="@drawable/email"
         android:textStyle="bold"
         android:layout_marginStart="15dp"
         android:layout_marginEnd="15dp"
